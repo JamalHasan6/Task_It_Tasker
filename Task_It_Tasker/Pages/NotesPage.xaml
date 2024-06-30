@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Task_It_Tasker.Pages.NotesPage"
+             xmlns:local="clr-namespace:Task_It_Tasker.ViewModel"
+             Title="Notes">
+
+
+    <ContentPage.BindingContext>
+        <local:NotesPageViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <CollectionView ItemsSource="{Binding Notes}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="2" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" BackgroundColor="#25A55F" CornerRadius="10" Margin="10">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Title}" 
+                                   TextColor="White" 
+                                   FontSize="15" 
+                                   FontAttributes="Bold" 
+                                   VerticalTextAlignment="Center" 
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding Date}" 
+                                   TextColor="White" 
+                                   VerticalTextAlignment="Center" 
+                                   HorizontalTextAlignment="Center"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </ScrollView>
+</ContentPage>

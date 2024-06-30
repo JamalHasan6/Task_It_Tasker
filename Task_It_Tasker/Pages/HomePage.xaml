@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Task_It_Tasker.Pages.HomePage"
+             Title="Tick-It">
+    
+    <VerticalStackLayout>
+        <Label 
+            Text="Today"
+            FontSize="20"
+            FontAttributes="Bold"
+            VerticalOptions="Start" 
+            HorizontalOptions="Start"
+            Margin="15,15,15,15"/>
+        <Frame Margin="15"
+               BackgroundColor="#25A55F">
+            <HorizontalStackLayout Spacing="35">
+                <Label Text="Task 1" 
+                       WidthRequest="75"
+                       TextColor="White"
+                       FontSize="15"
+                       FontAttributes="Bold"
+                       MaximumHeightRequest="75"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,0,0,0"/>
+                <Label  
+                    Text="30 June 2024 11.59"
+                       HeightRequest="40"
+                       TextColor="White"
+                       WidthRequest="75"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,0,0,0">
+                </Label>
+
+                <ImageButton Source="bell_solid" WidthRequest="25" HeightRequest="25"/>
+                <ImageButton Source="share_nodes_solid" WidthRequest="25" HeightRequest="25"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Label 
+            Text="Upcoming"
+            FontSize="20"
+            FontAttributes="Bold"
+            VerticalOptions="Start" 
+            HorizontalOptions="Start"
+            Margin="15,15,15,15"/>
+
+        <Frame Margin="15"
+        BackgroundColor="#25A55F">
+            <HorizontalStackLayout Spacing="35">
+                <Label Text="Task 1" 
+                WidthRequest="75"
+                TextColor="White"
+                FontSize="15"
+                FontAttributes="Bold"
+                MaximumHeightRequest="75"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,0"/>
+                <Label  
+             Text="30 June 2024 11.59"
+                HeightRequest="40"
+                TextColor="White"
+                WidthRequest="75"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,0">
+                </Label>
+
+                <ImageButton Source="bell_solid" WidthRequest="25" HeightRequest="25"/>
+                <ImageButton Source="share_nodes_solid" WidthRequest="25" HeightRequest="25"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Margin="15"
+        BackgroundColor="#25A55F">
+            <HorizontalStackLayout Spacing="35">
+                <Label Text="Task 1" 
+                WidthRequest="75"
+                TextColor="White"
+                FontSize="15"
+                FontAttributes="Bold"
+                MaximumHeightRequest="75"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,0"/>
+                <Label  
+             Text="30 June 2024 11.59"
+                HeightRequest="40"
+                TextColor="White"
+                WidthRequest="75"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,0">
+                </Label>
+
+                <ImageButton Source="bell_solid" WidthRequest="25" HeightRequest="25"/>
+                <ImageButton Source="share_nodes_solid" WidthRequest="25" HeightRequest="25"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Margin="15"
+        BackgroundColor="#25A55F">
+            <HorizontalStackLayout Spacing="35">
+                <Label Text="Task 1" 
+                WidthRequest="75"
+                TextColor="White"
+                FontSize="15"
+                FontAttributes="Bold"
+                MaximumHeightRequest="75"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,0"/>
+                <Label  
+             Text="30 June 2024 11.59"
+                HeightRequest="40"
+                TextColor="White"
+                WidthRequest="75"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,0">
+                </Label>
+
+                <ImageButton Source="bell_solid" WidthRequest="25" HeightRequest="25"/>
+                <ImageButton Source="share_nodes_solid" WidthRequest="25" HeightRequest="25"/>
+            </HorizontalStackLayout>
+        </Frame> 
+
+    </VerticalStackLayout>
+</ContentPage>

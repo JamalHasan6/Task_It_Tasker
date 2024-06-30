@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:plugin="clr-namespace:Plugin.Maui.Calendar.Controls;assembly=Plugin.Maui.Calendar" 
+             x:Class="Task_It_Tasker.Pages.CalendarPage"
+             Title="Calendar">
+    <VerticalStackLayout Margin="15">
+        <plugin:Calendar ArrowsBackgroundColor="#25A55F"
+                         ArrowsBorderColor="white"
+                         ArrowsColor="white"
+                         BackgroundColor="#25A55F"
+                         DaysTitleColor="White"
+                         DaysTitleWeekendColor="White"
+                         DeselectedDayTextColor="white"
+                         MonthLabelColor="white"
+                         YearLabelColor="white"
+                         WeekendDayColor="white"
+                         DisabledDayColor="Gray"
+                         SelectedDateColor="white"
+                         SelectedDayBackgroundColor="white"
+                         SelectedDayTextColor="Black"
+                         TodayFillColor="Black"
+                         TodayTextColor="white"
+                         TodayOutlineColor="Black"
+                         HorizontalOptions="Fill"
+                         VerticalOptions="Fill"
+                         
+                         >
+            
+        </plugin:Calendar>
+    </VerticalStackLayout>
+</ContentPage>

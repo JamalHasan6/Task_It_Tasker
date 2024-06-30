@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Task_It_Tasker.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:Task_It_Tasker.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Tick-It">
+
+    <TabBar IsVisible="True">
+        <Tab Title="Home" Icon="house_solid">
+            <ShellContent 
+                ContentTemplate="{DataTemplate pages:HomePage}" Title="Tick-It" Route="HomePage" />
+        </Tab>
+        <Tab Title="Notes" Icon="note_sticky_solid">
+            <ShellContent 
+                ContentTemplate="{DataTemplate pages:NotesPage}" Title="Tick-It" Route="NotesPage"/>
+        </Tab>
+        <Tab Title="Create" Icon="circle_plus_solid">
+            <ShellContent
+                ContentTemplate="{DataTemplate pages:CreateTaskPage}" Title="Tick-It" Route="CreateTaskPage" />
+        </Tab>
+        <Tab Title="Calendar" Icon="calendar_days_solid">
+            <ShellContent
+                ContentTemplate="{DataTemplate pages:CalendarPage}" Title="Tick-It" Route="CalendarPage" />
+        </Tab>
+        <Tab Title="Menu" Icon="bars_solid">
+            <ShellContent
+                ContentTemplate="{DataTemplate pages:MenuPage}" Title="Tick-It" Route="MenuPage"/>
+        </Tab>
+    </TabBar>
+
+</Shell>
